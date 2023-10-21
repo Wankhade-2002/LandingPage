@@ -1,0 +1,335 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+}
+.container{
+    text-align: center;
+}
+.pro{
+    border: 4px solid #5B0CE1;
+    /* #5B0CE1 */
+    background-color: #0D1232;
+    border-radius: 78px;
+    width: 486px;
+    font-size: 18px;
+    height: 74px;
+    padding-top: 22px;
+    margin-left: 510px;
+    color: #F9F9F9;
+    margin-bottom: 10px;
+    /* margin-bottom: 4px; */
+}
+.first{
+    border: 4px solid #5C0EDE;
+    /* border: 4px solid #2f0c83; */
+    background-color: #0D1232;
+    border-radius: 78px;
+    width: 486px;
+    font-size: 18px;
+    height: 74px;
+    padding-top: 22px;
+    margin-left: 510px;
+    color: #F9F9F9;
+    margin-bottom: 10px;
+    /* margin-bottom: 4px; */
+}
+.second{
+    border: 4px solid #5C0EDE;
+    background-color: #0D1232;
+    border-radius: 78px;
+    width: 486px;
+    font-size: 18px;
+    height: 74px;
+    padding-top: 22px;
+    margin-left: 510px;
+    color: #F9F9F9;
+    margin-bottom: 10px;
+    /* margin-bottom: 4px; */
+ 
+}
+.third{
+    border: 4px solid #5C0EDE;
+    background-color: #0D1232;
+    border-radius: 78px;
+    width: 486px;
+    font-size: 18px;
+    height: 74px;
+    padding-top: 22px;
+    margin-left: 510px;
+    color: #F9F9F9;
+    margin-bottom: 39px;
+     
+}
+#Dav{
+    color: #CC135F;
+    margin-top: 12px;
+}
+#Vin{
+    color: #B81280;
+}
+#Dan{
+    color: #AB3DB6;
+}
+#eng{
+    color: #816FE5;
+}
+h1{
+    color: #F9F9F9;
+}
+.img{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    /* height: 100px; */
+    /* padding: 15px; */
+}
+
+.Mobile{
+    /* margin-left: 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, red, yellow);
+    border-image-slice: 1;
+    position: absolute;
+    /* border-color: linear-gradient(red, yellow, green); */
+    /* border-radius: 20%; */
+    /* height: 147px;
+    width: 126px; */ 
+
+
+    margin-left: 10px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, #d75f2d,#fedb04, #e25a27);
+    border-image-slice: 1;
+    /* position: absolute; */
+    border-radius: 20%;
+    height: 147px;
+    width: 126px;
+   
+ 
+}
+
+.Web{
+    /* margin-left: 10px;
+    border: 2px solid #CD6238;
+    border-radius: 20%;
+    height: 147px;
+    width: 126px; */
+
+    margin-left: 10px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, #280fb4,#4e13bf, #7212cc);
+    border-image-slice: 1;
+    /* position: absolute; */
+    border-radius: 20%;
+    height: 147px;
+    width: 126px;
+}
+.UI{
+    /* margin-left: 10px;
+    border: 2px solid #CD6238;
+    border-radius: 20%;
+    height: 147px;
+    width: 126px; */
+    margin-left: 10px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, #280fb4, #4715b4,#7312cc);
+    border-image-slice: 1;
+    /* position: absolute; */
+    border-radius: 20%;
+    height: 147px;
+    width: 126px;
+}
+.AI{
+    /* margin-left: 10px;
+    border: 2px solid #CD6238;
+    border-radius: 20%;
+    /* margin-top: 5px; */
+    /* height: 147px;
+    width: 126px;  */
+    margin-left: 10px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, #270fb2, #4e09d8, #7212cc);
+    border-image-slice: 1;
+    /* position: absolute; */
+    border-radius: 20%;
+    height: 147px;
+    width: 126px;
+    display: grid;
+    margin-bottom: 5px;
+   
+
+  
+}
+img{
+    margin-top: 15px;
+    height: 100px;
+}
+h2{
+    font-size: 30px;
+}
+#one{
+    height: 19px;
+    width: 90px;
+}
+#two{
+    height: 19px;
+    width: 90px;
+}
+#foor{
+        height: 19px;
+        width: 90px;
+}
+button{
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, #d3931b, #31ea53, #8e2ee7);
+    border-image-slice: 1;
+    cursor: pointer;
+    background: black;
+    color: white;
+    /* margin-bottom: 5px; */
+}
+
+@media (max-width: 300px){
+    .pro{
+        margin-left: 26px;
+    width: 220px;
+    height: 110px;
+    }
+    .first{
+        margin-left: 26px;
+        width: 220px;
+        height: 110px;
+    }
+    .second{
+        margin-left: 26px;
+        width: 220px;
+        height: 110px;
+    }
+    .third{
+        margin-left: 26px;
+        width: 220px;
+        height: 110px;
+    }
+    .img{
+        display: block;
+        margin-left: 47px;
+    }
+}
+
+
+@media(min-width: 300px) and (max-width: 500px){
+    .pro{
+        /* margin-left: 99px; */
+        margin: auto;
+        width: 368px;
+    }
+    .first{
+        /* margin-left: 99px; */
+        margin: auto;
+        width: 368px;
+    }
+    .second{
+        /* margin-left: 99px; */
+        margin: auto;
+        width: 368px;
+    }
+    .third{
+        /* margin-left: 99px; */
+        margin: auto;
+        width: 368px;
+    }
+    .img{
+        /* display: block; */
+        margin-left: 67px;
+        height: 50px;
+        width: 50px;
+    }
+    .Mobile{
+        width: 90px;
+        margin-left: 300px;
+    }
+    .Web{
+        width: 90px;
+    }
+    .UI{
+        width: 90px;
+    }
+    .AI{
+        width: 90px;
+    }
+    #five{
+        width: 75px;
+        font-size: 13px;
+    }
+}
+
+
+@media(min-width: 500px) and (max-width: 700px){
+    .pro{
+        /* margin-left: 99px; */
+        margin: auto;
+        width: 368px;
+    }
+    .first{
+        /* margin-left: 99px; */
+        margin: auto;
+        width: 368px;
+    }
+    .second{
+        /* margin-left: 99px; */
+        margin: auto;
+        width: 368px;
+    }
+    .third{
+        /* margin-left: 99px; */
+        margin: auto;
+        width: 368px;
+    }
+}
+
+
+@media(min-width: 700px) and (max-width: 900px){
+    .pro{
+        margin: auto;
+        width: 440px;
+    }
+    .first{
+        margin: auto;
+        width: 440px;
+    }
+    .second{
+        margin: auto;
+        width: 440px;
+    }
+    .third{
+        margin: auto;
+        width: 440px;;
+    }
+}
+
+
+@media(min-width: 900px) and (max-width: 1200px){
+    .pro{
+        /* margin-left: 273px; */
+        margin: auto;
+        width: 440px;
+    }
+    .first{
+        margin: auto;
+        width: 440px;
+    }
+    .second{
+        margin: auto;
+        width: 440px;
+    }
+    .third{
+        margin: auto;
+        width: 440px;
+    }
+}
+
+
